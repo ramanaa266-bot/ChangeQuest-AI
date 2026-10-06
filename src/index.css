@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #070b12;
+    color: #f1f5f9;
+    font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar for tactical GIS panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070b12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
+}
+
+/* Leaflet Map tactical custom overrides */
+.leaflet-container {
+  background: #070b12 !important;
+  font-family: 'JetBrains Mono', monospace, sans-serif !important;
+}
+
+.leaflet-control-zoom {
+  display: none !important;
+}
+
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+/* Print optimizations for intelligence dossier reports */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  header, aside, button {
+    display: none !important;
+  }
+  main {
+    overflow: visible !important;
+  }
+}

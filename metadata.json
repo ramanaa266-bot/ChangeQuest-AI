@@ -1,0 +1,6 @@
+{
+  "name": "CHANGEQUEST AI - Satellite Retrieval & Multi-Temporal Change Analysis",
+  "description": "Semantic Retrieval and Multi-Temporal Change Analysis of Satellite Imagery for Defense, Geospatial Intelligence, and Space Technology.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
